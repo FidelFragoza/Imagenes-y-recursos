@@ -1,0 +1,40 @@
+<style>
+    .skew-heading {
+        transform: skewX(15deg);
+        font-size: 2em;
+        color: #f00;
+    }
+    .skew-cube {
+        transform: skew(15deg, 10deg) rotateX(45deg);
+        width: 100px;
+        height: 100px;
+        background-color: #ccc;
+    }
+    .skew-text {
+        font-style: italic;
+        transform: skewX(-5deg);
+    }
+    .skew-animate {
+        animation: skew-anim 2s infinite;
+    }
+
+    @keyframes skew-anim {
+        0% { transform: skewX(0deg); }
+        50% { transform: skewX(15deg) rotateX(45deg); }
+        100% { transform: skewX(0deg); }
+    }
+
+
+
+
+
+</style>
+
+<body>
+    <div class="skew-heading">Este encabezado está sesgado para llamar la atención.</div>
+    <div class="skew-cube">Este div simula un cubo 3D con skew y rotate.</div>
+    <p class="skew-text">Este texto está sesgado para corregir la alineación en cursiva.</p>
+    <div class="skew-animate">Este div se anima con skew y rotate.</div>
+    
+
+</body>
