@@ -1,0 +1,42 @@
+<style>
+  .changed {
+    /* EscalaX */ /* InclinarX */ /* InclinarY */
+     /* EscalaY */ /* TrasladarX */ /* TrasladarY */
+    transform: matrix(1, 1, -1, 4, 250, 150);
+    background-color: pink;
+  }
+  div {
+    width: 80px;
+    height: 80px;
+    background-color: skyblue;
+  }
+  .rotate {
+    transform: matrix(0.707, -0.707, 0.707, 0.707, 100, -70);
+  }
+  .scale {
+    transform: matrix(2, 0, 0, 2, 100, 0);  
+  }
+  .shrink {
+    transform: matrix(0.5, 0, 0, 0.5, 0, 50);
+  }
+  .skew {
+    transform: matrix(1, 0, 0, 1, 100, 0);
+    /* EscalaX */ /* InclinarX */ /* InclinarY */
+     /* EscalaY */ /* TrasladarX */ /* TrasladarY */
+  }
+  .combined {
+    transform: matrix(1, 0.5, 0.5, 1, 50, 50);
+  }
+
+</style>
+
+<body>
+  <div>Normal</div>
+  <div class="changed">Changed</div>
+  <div class="rotate">Rotate</div>
+  <div class="scale">Scale</div>
+  <div class="shrink">Shrink</div>
+  <div class="skew">Skew</div>
+  <div class="combined">Combinado</div>
+
+</body>
