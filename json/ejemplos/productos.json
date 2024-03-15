@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "name": "Pesa Rusa",
+      "description": "Pesa rusa de hierro fundido con asa ancha para entrenamientos de fuerza y acondicionamiento.",
+      "price": 600,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "name": "Banda de Resistencia",
+      "description": "Banda elástica de resistencia para entrenamiento de fuerza y estiramiento.",
+      "price": 250,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 3,
+      "name": "Mancuernas ajustables",
+      "description": "Par de mancuernas ajustables con peso variable de 5 a 25 libras.",
+      "price": 1200,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 4,
+      "name": "Bule de Agua",
+      "description": "Bule de agua de acero inoxidable con capacidad de 1 litro, ideal para mantenerse hidratado durante el entrenamiento.",
+      "price": 300,
+      "image": "https://via.placeholder.com/150"
+    }
+  ]
+  
